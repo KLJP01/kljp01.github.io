@@ -87,20 +87,8 @@ footer {
 }
 .qr-codes {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
   }
   
   .qr-code {
     width: 25%;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
   }
-  
-  .qr-code:hover {
-    transform: translateY(-0.2rem);
-  }
-  
