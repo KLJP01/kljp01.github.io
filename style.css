@@ -84,11 +84,11 @@ footer {
     font-size: 0.8em;
     color: #999;
 }
-
-.qr-codes {
-    display: flex;
-}
   
 .qr-code {
 width: 25%;
+}
+
+.qr-codes ul{
+    display: flex;
 }
