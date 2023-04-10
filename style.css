@@ -85,14 +85,22 @@ footer {
     font-size: 0.8em;
     color: #999;
 }
-.qr-code {
-    margin-top: 50px;
-    text-align: center;
+.qr-codes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .qr-code {
     width: 25%;
-    display: inline-block;
-}
-
-.qr-img {
-    max-width: 100%;
-    height: auto;
-}  
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .qr-code:hover {
+    transform: translateY(-0.2rem);
+  }
+  
