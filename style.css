@@ -94,6 +94,16 @@ footer {
 }
 
 
+.mint{
+    width: 100%;
+    text-align: center;
+}
+
 .mint h3{
     text-align: center;
+    display: inline-block;
+}
+
+.mint a {
+    text-align: left;
 }
