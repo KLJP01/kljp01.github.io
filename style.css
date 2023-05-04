@@ -92,3 +92,8 @@ footer {
 .qr-codes ul{
     display: flex;
 }
+
+
+.mint h3{
+    text-align: center;
+}
